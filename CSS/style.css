@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    background-image: url("https://media.istockphoto.com/photos/red-blurred-background-for-decor-picture-id1196215434?k=20&m=1196215434&s=612x612&w=0&h=0BN9V1JNCbaCzTpw0qDzOb-lhGqVU7GwvTgnYqmJ_bw=");
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+
+td{
+    vertical-align: text-top;
+    
+}
+.texto-justificado{
+    text-align: justify;
+}
+
+ul{
+    list-style: none; /*estilos de las listas*/
+}
+ul li{
+    font-family: 'Segeo UI', Tahoma, Geneva, Verdana, sans-serif; /*tipo de letra*/
+    font-size: 22px; /*tamaño de letra*/
+    height: 60px; /*altura de cada opcion de la lista*/
+}
+ul li a {
+    height: 60px;
+    background-color: black; /*colo de fondo*/
+    display: block;
+    border-left: 10px solid rgb(26, 1, 255);
+    border-right: 5px solid rgb(4, 0, 255);
+    padding-left: 15px; /*separacion izquierda del texto*/
+    text-decoration: none;
+    color: #ffc400;
+}
+
+ul li a:hover{
+    margin-left: 10px; 
+    color: rgb(169, 169, 169);
+    background-color: #0b1741;
+    box-shadow: 10px 10px 20px #000;
+    transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+td{
+    vertical-align: top;
+}
+a{
+    text-decoration: none;
+    color: #fdf250;
+}
+div{
+    color: #add814;
+    height: 100%;
+    height: 100%;
+    padding: 20px 10px 20px 40px;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(233, 75, 180);
+    border-radius: 15px;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 2px 2px 5px rgb(0, 255, 200);
+}
